@@ -1,0 +1,2 @@
+rootProject.name = "BaltazarLogin"
+include ':app'

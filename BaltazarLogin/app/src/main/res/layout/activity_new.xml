@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF1D9792"
+    android:layout_gravity="center"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="Dashboard"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F4F1F1"
+        android:textSize="40sp" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/george" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="ID no.:20192300"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FBFAFA"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="George P. Baltazar Jr."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F6F4F4"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="257dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="29dp"
+        android:text="log_out"
+        android:textColor="#0B0A0A"
+        android:textSize="34sp"
+        app:backgroundTint="#EDE9E9" />
+
+</LinearLayout>

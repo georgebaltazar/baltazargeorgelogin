@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#1D9792"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="39dp"
+        android:text="username"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#EDE6E6"
+        android:textSize="34sp" />
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="12dp"
+        android:background="#F6F1F0"
+        android:ems="10"
+        android:autofillHints="USERNAME"
+        tools:ignore="LabelFor" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="39dp"
+        android:text="password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F1ECEC"
+        android:textSize="34sp" />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="288dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="14dp"
+        android:background="#F6F1F0"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:autofillHints="PASSWORD"
+        tools:ignore="LabelFor" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="186dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="29dp"
+        android:text="login"
+        android:textColor="#2B3839"
+        android:textSize="34sp"
+        app:backgroundTint="#EDE9E9" />
+
+
+</LinearLayout>
+
